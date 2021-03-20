@@ -3,6 +3,9 @@ A celestial-object tracker in your terminal.
 
 ![preview](https://github.com/Sugardust-io/STELLARSOL/blob/master/main/preview.PNG)
 
+NOTICE: STELLARSOL will be recieving a rewrite at some point in the future. At that time I will be migrating it away from a curses-terminal interface into a graphical GUI interface to further make it easier to work with. The code for celestial objects will also be recieving a rewrite so that they may be very easily included from within the program itself rather than having to mess around with JSON to do it.
+
+
 **What is STELLARSOL?**
 
 STELLARSOL, a combination of the words 'Stellar' and 'Sol' (referring both to our home solar system, and shorthand for 'console'), is a short passion-project I have been working on and am finally ready to release. In a very short description, it's an object position-tracker for whatever object you wish to track through the night-sky. If you object isn't included, it's fairly easy to include it and it doesn't involve rehashing a ton of code around to do it, meaning STELLARSOL is very expandable.
@@ -11,7 +14,7 @@ STELLARSOL, a combination of the words 'Stellar' and 'Sol' (referring both to ou
 
 **How are objects tracked?**
 
-Objects are (for the moment) manually tracked via a function included in the program. Users are prompted to input an object's name, it's current Right-Ascension coordinate, and it's current Declination coordinate. This is saved in the 'data.json' file and can be referred back to at any time. An object can have any number of entries, it is not capped in anyway.
+Objects are (for the moment) manually tracked via a function included in the program. Users are prompted to input an object's name, it's current Right-Ascension coordinate, and it's current Declination coordinate. This is saved in the 'data.json' file and can be referred back to at any time. An object can have any number of entries, it is not capped in any way.
 
 For those unfamiliar, RA/Dec coordinates are commonly used by amateur and professional astronomers alike, and it makes tracking objects very easy once you get the hang of it.
 
