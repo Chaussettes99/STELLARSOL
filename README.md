@@ -3,7 +3,7 @@ A celestial-object tracker in your terminal.
 
 ![preview](https://github.com/Sugardust-io/STELLARSOL/blob/master/main/preview.PNG)
 
-NOTICE: STELLARSOL will be recieving a rewrite at some point in the future. At that time I will be migrating it away from a curses-terminal interface into a graphical GUI interface to further make it easier to work with. The code for celestial objects will also be recieving a rewrite so that they may be very easily included from within the program itself rather than having to mess around with JSON to do it.
+NOTICE: STELLARSOL will be recieving a rewrite at some point in the future. At that time I will be migrating it away from a curses-terminal interface into a graphical GUI interface to further make it easier to work with. The code for celestial objects will also be recieving a rewrite so that they may be very easily included from within the program itself rather than having to mess around with JSON to do it. No further work on the curses implimentation will be done.
 
 --
 
